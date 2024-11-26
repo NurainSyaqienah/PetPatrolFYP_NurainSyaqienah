@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F1F1"
+    tools:context=".KelantanActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/kelantanclinic1"
+                android:layout_width="353dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/adopt1" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namekelantanclinic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/kelantanclinic1"
+                android:text="Second Chance Animal Society (Hulu Langat)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/kelantanclinic1rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namekelantanclinic1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="230dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/kelantanclinic1"
+                android:drawablePadding="2dp"
+                android:text="Opening hours: \n1-3pm Mon-Fri; \n12-3pm Sat-Sun
+\n\nContact number: \n+6012-919 2263
+\n\nAddress: \nPekan Batu 14, Hulu Langat, Selangor Darul Ehsan" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="386dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/kelantanclinic2"
+                android:layout_width="356dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/kelantan2" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namekelantanclinic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/kelantanclinic2"
+                android:text="Meowy Cat Shelter (Penang)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/kelantanclinic2rating"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namekelantanclinic2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/kelantanclinic2"
+                android:drawablePadding="2dp"
+                android:text="Contact number: \n+6016-422 9091
+\n\nAddress: \n501, Jalan Ayer Putih, Bandar Baru Air Putih, 11000 Balik Pulau, Penang"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/kelantanclinic3"
+                android:layout_width="351dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/adopt3" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namekelantanclinic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/kelantanclinic3"
+                android:text="Woo &amp; Meow Animal Shelter (Hulu Langat)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/kelantanclinic3rating"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kelantanclinic3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/kelantanclinic3"
+                android:drawablePadding="2dp"
+                android:text="Opening hours: \n9am-6pm Mon-Sun
+\n\nContact number: \n+6018-777 7698
+\n\nAddress: \n6683, Jalan Sungai Tekali, Kampung Kenangan 18, 43100 Hulu Langat, Selangor"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/kelantanclinic4"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/adopt4" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namekelantanclinic4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/kelantanclinic4"
+                android:text="Homeless &amp; Orphan Pets Exist (H.O.P.E.) Shelter (Johor)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/kelantanclinic4rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namekelantanclinic4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="230dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/kelantanclinic4"
+                android:drawablePadding="2dp"
+                android:text="Contact number: \n+6012 716 7123
+\n\nAddress: \nPekan Nenas, Johor (shelter is located in the estate, so do contact H.O.P.E in advance if you are planning to visit)" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/kelantanclinic5"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/adopt5" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namekelantanclinic5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/kelantanclinic5"
+                android:text="SPCA Kota Kinabalu (Sabah)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/kelantanclinic5rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namekelantanclinic5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="220dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/kelantanclinic5"
+                android:drawablePadding="2dp"
+                android:text="Opening hours: \n11am-3pm Mon-Sun
+\n\nContact number: \n+6019 880 9660
+\n\nAddress: \nKampung Gana, Jalan Kopozon Gana, Mai Aman, 89600 Papar, Sabah" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/kelantanclinic6"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/adopt6" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namekelantanclinic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/kelantanclinic6"
+                android:text="Cat Beach Sanctuary (Penang)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/kelantanclinic6rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namekelantanclinic6"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="220dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/kelantanclinic6"
+                android:drawablePadding="2dp"
+                android:text="Opening hours: \n11am-8pm Tue-Sun; \n11am-4pm Mon
+\n\nContact number: \n+6017-575 3419 / +604-881 1015 / +604-881 1122
+\n\nAddress: \n778 Jalan Teluk Awak, MK 2, Teluk Bahang 11050, Penang, Malaysia" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/kelantanclinic7"
+                android:layout_width="351dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/adopt7" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namekelantanclinic7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/kelantanclinic7"
+                android:text="Shelter for Abused &amp; Abandoned (Kedah)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/kelantanclinic7rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namekelantanclinic7"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/kelantanclinic7"
+                android:drawablePadding="2dp"
+                android:text="Contact number: \n+6016-497 1591
+\n\nAddress: \nKuala Muda, Kedah" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/kelantanclinic8"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/adopt8" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namekelantanclinic8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/kelantanclinic8"
+                android:text="KL Pooch Resort and Rescue (Kerling, Selangor)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/kelantanclinic8rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namekelantanclinic8"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/kelantanclinic8"
+                android:drawablePadding="2dp"
+                android:text="Opening hours: \n10am-4pm Wed-Fri; \n10am-6pm Sat-Sun
+\n\nContact number: \n+6016-233 3647
+\n\nAddress: \nTaman Tempua Bistari, Kalumpang, 44100 Kuala Kubu Baru, Selangor" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/kelantanclinic9"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/adopt9" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namekelantanclinic9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/kelantanclinic9"
+                android:text="PAWS Animal Welfare Society (Petaling Jaya)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/kelantanclinic9rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kelantanclinic9"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/kelantanclinic9"
+                android:drawablePadding="2dp"
+                android:text="Contact number: \n+6011-2193 5651
+\n\nAddress: \nJalan PJU 1a/5, Ara Damansara, 47301 Subang, Selangor" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/kelantanclinic10"
+                android:layout_width="357dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/adopt10" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namekelantanclinic10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/kelantanclinic10"
+                android:text="Katzen Cat Sanctuary (Shah Alam)"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/kelantanclinic10rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namekelantanclinic10"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/kelantanclinic10"
+                android:drawablePadding="2dp"
+                android:text="Contact number: \n+6017-878 3040
+\n\nAddress: \n27-G Jalan Nautica B U20/B, Pusat Komersil TSB, 40160 Selangor" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

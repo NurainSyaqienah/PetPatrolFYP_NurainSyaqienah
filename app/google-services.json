@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "308938114536",
+    "project_id": "pet-patrol-f8b6f",
+    "storage_bucket": "pet-patrol-f8b6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308938114536:android:0c9bf4d0ae156faf52d05d",
+        "android_client_info": {
+          "package_name": "com.example.petpatrolfyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq_95aXZ9xnm0fs5CuX9id3sW8Le2XDwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

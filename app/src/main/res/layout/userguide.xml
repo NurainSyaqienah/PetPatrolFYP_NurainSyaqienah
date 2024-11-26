@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F1F1"
+    tools:context=".PerlisActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="403dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperlisclinic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/perlisclinic1"
+                android:text="USER GUIDE"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perlisclinic1rating"
+                android:layout_width="338dp"
+                android:layout_height="146dp"
+                android:layout_below="@id/nameperlisclinic1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_toEndOf="@id/perlisclinic1"
+                android:drawablePadding="2dp"
+                android:text="1.    User will see the main activity (main menu) right away after opening the app.\n\n2.     User can choose any of the option they wantshown on the main menu. \n\n3.   There are also 'Contact Us' button if the user has any question or feedback regarding the application."
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="250dp"
+                android:text="THANK YOU!"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

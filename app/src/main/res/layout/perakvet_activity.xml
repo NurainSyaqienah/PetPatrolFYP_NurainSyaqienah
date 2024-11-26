@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F1F1"
+    tools:context=".PerakActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perakclinic1"
+                android:layout_width="352dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perak1" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperakclinic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perakclinic1"
+                android:text="Ipoh Garden Animal Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perakclinic1rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameperakclinic1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perakclinic1"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.3/5 - Google Review (455 reviews)\n\nOperating Hours:\n10:00 am - 6:00 pm (Monday - Saturday)\n10:00 am - 1:00 pm (Thursday &amp; Sunday)\n\nAddress:\n30, Pesara Ipoh, Taman Canning, 31400 Ipoh, Perak\n\nPhone No:\n05-5455933" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perakclinic2"
+                android:layout_width="354dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perak2" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperakclinic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perakclinic2"
+                android:text="LittleFoot Animal Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perakclinic2rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameperakclinic2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perakclinic2"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.7/5 - Google Review (202 reviews)\n\nOperating Hours:\n10:00 am - 5:00 pm (Monday - Friday)\n10:00 am - 3:00 pm (Saturday)\nClosed (Sunday)\n\nAddress:\n98C, Jln. Kuala Kangsar, Taman Hock Aun, 30010 Ipoh, Perak\n\nPhone No:\n05-5060064" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perakclinic3"
+                android:layout_width="354dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perak3" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperakclinic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perakclinic3"
+                android:text="Animal Republic Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perakclinic3rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/perakclinic3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perakclinic3"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.5/5 - Google Review (208 reviews)\n\nOperating Hours:\n10:00 am - 6:00 pm (Monday - Friday)\n10:00 am - 2:00 pm (Saturday)\nClosed (Sunday)\n\nAddress:\n14, Jalan Bercham Bistari 1, Medan Bercham Bistari, 31400 Ipoh, Perak\n\nPhone No:\n013-5280028" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perakclinic4"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perak4" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperakclinic4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perakclinic4"
+                android:text="Pejabat Perkhidmatan Veterinar Daerah Hilir Perak"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perakclinic4rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameperakclinic4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="220dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perakclinic4"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.4/5 - Google Review (130 reviews)\n\nOperating Hours:\n8:30 am - 4:30 pm (Monday - Friday)\nClosed (Sunday &amp; Saturday)\n\nAddress:\nJalan Maharajalela, Pekan Teluk Intan, 36000 Teluk Intan, Perak\n\nPhone No:\n05-6221697" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perakclinic5"
+                android:layout_width="355dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perak5" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperakclinic5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perakclinic5"
+                android:text="Klinik Haiwan Surgeri Ipoh Ville"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perakclinic5rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameperakclinic5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perakclinic5"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.6/5 - Google Review (146 reviews)\n\nOperating Hours:\n9:30 am - 5:30 pm (Monday - Thursday)\n9:00 am - 4:00 pm (Saturday)\n9:00 am - 1:00 pm (Sunday)\nClosed (Friday)\n\nAddress:\n39, Jalan Ampang Baru 6a, Ampang Baru, 31350 Ipoh, Perak\n\nPhone No:\n017-6691132" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perakclinic6"
+                android:layout_width="354dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perak6" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperakclinic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perakclinic6"
+                android:text="Larut, Matang and Selama Veterinary Services Office"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perakclinic6rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameperakclinic6"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="220dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perakclinic6"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.5/5 - Google Review (123 reviews)\n\nOperating Hours:\n8:30 am - 4:30 pm (Monday - Friday)\nClosed (Saturday &amp; Sunday)\n\nAddress:\nJalan Haiwan, Kampung Asam Kumbang, 34000 Taiping, Perak\n\nPhone No:\n05-8072703" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perakclinic7"
+                android:layout_width="355dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perak7" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperakclinic7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perakclinic7"
+                android:text="Klinik Haiwan Dr Nour Ipoh"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perakclinic7rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameperakclinic7"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perakclinic7"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.8/5 - Google Review (323 reviews)\n\nOperating Hours:\nEveryday (10:00 am - 6:00 pm)\n\nAddress:\n10 &amp; 12, Jalan Pusat Perniagaan Falim 6, Pusat Perniagaan Falim, 30200 Ipoh, Perak\n\nPhone No:\n011-10889891" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perakclinic8"
+                android:layout_width="356dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perak8" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperakclinic8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perakclinic8"
+                android:text="Silver Land Pets Care &amp; Veterinary Surgery"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perakclinic8rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameperakclinic8"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perakclinic8"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.5/5 - Google Review (190 reviews)\n\nOperating Hours:\n9:30 am - 6:00 pm (Tuesday - Sunday)\nClosed (Monday)\n\nAddress:\n117, Jalan Raja Perempuan Mazwin, Taman Rishah, 30100 Ipoh, Perak\n\nPhone No:\n05-5250605" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perakclinic9"
+                android:layout_width="355dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perak9" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperakclinic9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perakclinic9"
+                android:text="Dr.K Veterinary Clinic &amp; Surgery"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perakclinic9rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/perakclinic9"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perakclinic9"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.7/5 - Google Review (132 reviews)\n\nOperating Hours:\n10:00 am - 6:00 pm (Monday, Tuesday, Friday)\n10:00 am - 7:00 pm (Thursday)\n10:00 am - 2:00 pm (Saturday &amp; Sunday)\Closed (Wednesday)\n\nAddress:\n17, Jalan Medan Ipoh 8, Bandar Baru Medan Ipoh, 31400 Ipoh, Perak\n\nPhone No:\n05-5419936" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perakclinic10"
+                android:layout_width="356dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perak10" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperakclinic10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perakclinic10"
+                android:text="Jean Veterinary Centre"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perakclinic10rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameperakclinic10"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perakclinic10"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.4/5 - Google Review (164 reviews)\n\nOperating Hours:\n9:00 am - 5:00 pm (Monday - Friday)\n9:00 am - 1:00 pm (Saturday)\nClosed (Sunday)\n\nAddress:\n19, Jalan Medan Ipoh 4, Bandar Baru Medan Ipoh, 31400 Ipoh, Perak\n\nPhone No:\n05-5458281" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

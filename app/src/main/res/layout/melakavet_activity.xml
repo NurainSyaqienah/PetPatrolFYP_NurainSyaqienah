@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F1F1"
+    tools:context=".MelakaActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/melakaclinic1"
+                android:layout_width="354dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/melaka1" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namemelakaclinic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/melakaclinic1"
+                android:text="Companion Veterinary Clinic Melaka"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/melakaclinic1rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namemelakaclinic1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/melakaclinic1"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.7/5 - Google Review (179 reviews)\n\nOperating Hours: \n10:00 am - 7:00 pm (Monday - Saturday) \n10:00 am - 5:00 pm (Sunday)\n\nAddress:\n203-J (Ground, Jalan Kenanga 3/29a, Taman Kenanga Seksyen 3, 75200, Melaka\n\nPhone No:\n01156205520" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/melakaclinic2"
+                android:layout_width="352dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/melaka2" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namemelakaclinic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/melakaclinic2"
+                android:text="My Animal Clinic &amp; Surgery"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/melakaclinic2rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namemelakaclinic2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/melakaclinic2"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.4/5 - Google Review (632 reviews)\n\nOperating Hours: \n10:0 am - 6:00 pm (Saturday - Thursday) \nClosed (Friday)\n\nAddress: \n2358-1 JALAN SUNGAI PUTAT, 75350 Malacca\n\nPhone No:\n011-36836858" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/melakaclinic3"
+                android:layout_width="351dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/melaka3" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namemelakaclinic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/melakaclinic3"
+                android:text="Dr. Jeya Vet Clinic Melaka"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/melakaclinic3rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/melakaclinic3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/melakaclinic3"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.4/5 - Google Review (149 reviews)\n\nOperating Hours: \n11:00 am - 5:00 pm (Monday - Friday) \n11:00 am - 1:00 pm (Saturday &amp; Sunday)\n\nAddress: \nJalan Taman Sinn 4, Taman Sinn, 75050 Ujong Pasir, Melaka\n\nPhone No:\n06-2830002" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/melakaclinic4"
+                android:layout_width="356dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/melaka4" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namemelakaclinic4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/melakaclinic4"
+                android:text="Kim Veterinary Clinic &amp; Surgery"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/melakaclinic4rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namemelakaclinic4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/melakaclinic4"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.8/5 - Google Review (434 reviews)\n\nOperating Hours:\n10:00 am - 10:00 pm (Monday - Thursday) \n10:00 am - 5:00 pm (Saturday &amp; Sunday)\n\nAddress: \nNo. 11, Jalan Magenta 2, Lebuh AMJ, Taman Bertam Mutiara, 75250 Cheng, Malacca\n\nPhone No: \n06-3347366" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/melakaclinic5"
+                android:layout_width="353dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/melaka5" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namemelakaclinic5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/melakaclinic5"
+                android:text="Kaseh Animal Clinic &amp; Surgery"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/melakaclinic5rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namemelakaclinic5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/melakaclinic5"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.9/5 - Google Review (99 reviews)\n\nOperating Hours: \n10:00 am - 6:00 pm (Thursday - Saturday) \nClosed (Sunday - Wednesday)\n\nAddress: \nGround Floor : 12 , Jalan PJ 14 Jalan Tun Kudu Ayer Molek, 75450 Bukit Katil, Melaka\n\nPhone No:\n010-7670015"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/melakaclinic6"
+                android:layout_width="356dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/melaka6" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namemelakaclinic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/melakaclinic6"
+                android:text="I Care Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/melakaclinic6rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namemelakaclinic6"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/melakaclinic6"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.3/5 - Google Review (191 reviews)\n\nOperating Hours: \n9:30 am - 6:00 pm (Monday - Saturday)\nClosed (Sunday)\n\nAddress: \n26, Jalan Iks M5, Taman Iks Merdeka, 75350 Melaka\n\nPhone No:\n06-3320816" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/melakaclinic7"
+                android:layout_width="353dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/melaka7" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namemelakaclinic7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/melakaclinic7"
+                android:text="Klinik Veterinar Family &amp; Surgeri"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/melakaclinic7rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namemelakaclinic7"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/melakaclinic7"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.4/5 - Google Review (269 reviews)\n\nOperating Hours: \n9:00 am - 6:00 pm (Monday - Saturday)\nClosed (Sunday)\n\nAddress:\n25, Jalan CP 1/21a, Taman Cheng Perdana, 75250 Malacca\n\nPhone No: \n06-3121010" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/melakaclinic8"
+                android:layout_width="357dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/melaka8" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namemelakaclinic8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/melakaclinic8"
+                android:text="Maju Animal Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/melakaclinic8rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namemelakaclinic8"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/melakaclinic8"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.4/5 - Google Review (339 reviews)\n\nOperating Hours: \n10:00 am - 6:30 pm (Monday - Saturday)\nClosed (Sunday)\n\nAddress: \n25, Jalan Kanan 1, Taman Cergas, 75350 Batu Berendam, Melaka\n\nPhone No:\n06-3173669" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/melakaclinic9"
+                android:layout_width="353dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/melaka9" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namemelakaclinic9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/melakaclinic9"
+                android:text="FA Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/melakaclinic9rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/melakaclinic9"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/melakaclinic9"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.5/5 - Google Review (176 reviews)\n\nOperating Hours: \nEveryday (10:00 am - 6:00 pm\n\nAddress:\n16, Jalan Di 2/1, Kampung Duyong, 75460 Melaka\n\nPhone No:\n019-4888154" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/melakaclinic10"
+                android:layout_width="353dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/melaka10" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namemelakaclinic10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/melakaclinic10"
+                android:text="Klinik Veterinar Ayer Keroh Heights"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/melakaclinic10rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namemelakaclinic10"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/melakaclinic10"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.5/5 - Google Review (167 reviews)\n\nOperating Hours: \n10:00 am – 9:00 pm (Monday - Wednesday) \n10:00 am - 2:00 pm (Thursday)\n10:00 am - 5:00 pm (Saturday &amp; Sunday)\nClosed (Friday)\n\nAddress:\nJalan Takh 15, Taman Ayer Keroh Heights, 75450 Ayer Keroh, Melaka\n\nPhone No:\n019-7403041" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

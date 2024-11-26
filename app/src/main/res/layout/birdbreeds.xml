@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3D9F4"
+    tools:context=".JohorActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <!-- Text View to display Course Name -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="142dp"
+                android:layout_margin="20dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/bbreed1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:text="Parakeets"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:drawablePadding="2dp"
+                android:text="Weight: \n1 ounce
+
+\n\nLength: \n6 - 8 inches
+
+\n\nLifespan: \nWhen cared for properly a pet budgie has a life expectancy of 7 -15 years"
+                android:textColor="@color/black" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="373dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="142dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/bbreed2" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="160dp"
+                android:text="Cockatiels"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="190dp"
+                android:drawablePadding="2dp"
+                android:text="Weight: \n3 ounces
+
+\n\nLength: \n12 - 13 inches (adults)\n\nLifespan: \nWith proper love and care a pet cockatiel can easily live for 15 - 20 years. In rare cases, these birds have been known to live for as long as 30 years."
+                android:textColor="@color/black" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:layout_width="352dp"
+                android:layout_height="142dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/bbreed3" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="160dp"
+                android:text="Doves"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="190dp"
+                android:drawablePadding="2dp"
+                android:text="Weight: \n5 to 8 ounces
+
+\nLength: \n11 to 13 inches\n\nLifespan: \nWhen well cared for a pet dove can live from 8 -15 years depending on the species."
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="381dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/johorclinic4"
+                android:layout_width="354dp"
+                android:layout_height="145dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/bbreed4" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namejohorclinic4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="160dp"
+                android:layout_toEndOf="@id/johorclinic4"
+                android:text="Canaries"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/johorclinic4rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namejohorclinic4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="190dp"
+                android:layout_toEndOf="@id/johorclinic4"
+                android:drawablePadding="2dp"
+                android:text="Weight: \nLess than 1 ounce
+
+\n\nLength: \n4 to 8 inches\n\nLifespan: \nCanaries typically live for between 9-10 years if well cared for, although in rare cases these little birds can live for 15 years or even longer!"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="381dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/johorclinic5"
+                android:layout_width="354dp"
+                android:layout_height="142dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/bbreed5" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namejohorclinic5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="160dp"
+                android:layout_toEndOf="@id/johorclinic5"
+                android:text="Hyacinth Macaws"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/johorclinic5rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namejohorclinic5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="190dp"
+                android:layout_toEndOf="@id/johorclinic5"
+                android:drawablePadding="2dp"
+                android:text="Weight: \n42 to 51 ounces
+
+\n\nLength: \n40 inches\n\nLifespan: \nOften live 30+ years"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="407dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/johorclinic6"
+                android:layout_width="wrap_content"
+                android:layout_height="157dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/bbreed6" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namejohorclinic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/johorclinic6"
+                android:text="Lovebirds"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/johorclinic6rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namejohorclinic6"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/johorclinic6"
+                android:drawablePadding="2dp"
+                android:text="Weight: \n2 ounces
+
+\n\nLength: \n5 to 6 inches
+
+\n\nLifespan: \nProperly cared for lovebirds can easily eclipse lifespans of 20+ years "
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>

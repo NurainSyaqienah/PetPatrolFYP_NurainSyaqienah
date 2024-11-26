@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3D9F4"
+    tools:context=".JohorActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="20dp"
+            app:cardElevation="8dp"
+            android:paddingBottom="200dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="30dp"
+                android:text="ABOUT DOGS"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="473dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <!-- Text View to display Course Name -->
+
+            <ImageView
+                android:id="@+id/johorclinic1"
+                android:layout_width="340dp"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/dog1" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/johorclinic1rating"
+                android:layout_width="342dp"
+                android:layout_height="221dp"
+                android:layout_below="@id/namejohorclinic1"
+                android:layout_gravity="clip_vertical|fill_horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:drawablePadding="2dp"
+                android:lineSpacingExtra="8px"
+                android:text="Dog, (Canis lupus familiaris), domestic mammal of the family Canidae (order Carnivora). It is a subspecies of the gray wolf (Canis lupus) and is related to foxes and jackals. The dog is one of the two most ubiquitous and most popular domestic animals in the world (the cat is the other). For more than 12,000 years it has lived with humans as a hunting companion, protector, object of scorn or adoration, and friend."
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="668dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="30dp"
+                android:text="dog breeds"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="256dp"
+                android:paddingStart="40dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/dog2">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="338dp"
+                android:layout_height="205dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="290dp"
+                android:lineSpacingExtra="8px"
+                android:text="Once it became evident that dogs were faster and stronger and could see and hear better than humans, those specimens exhibiting these qualities were interbred to enhance such attributes. Fleet-footed sight hounds were revered by noblemen in the Middle East, while in Europe powerful dogs such as the mastiff were developed to protect home and traveler from harm."
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/dogbreed"
+                android:layout_width="112dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="520dp"
+                android:text="MORE INFO">
+
+            </Button>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="798dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="30dp"
+                android:text="dogs DIET"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="341dp"
+                android:layout_height="256dp"
+                android:paddingStart="40dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/cat3">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="338dp"
+                android:layout_height="320dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="290dp"
+                android:lineSpacingExtra="8px"
+                android:text="Feeding your dog the right diet can help keep them healthy for years to come. The right amount of food is equally important, as it plays a key role in maintaining a healthy weight. It’s very easy to overfeed a dog and this will play a part in their overall health and wellbeing in the future.\n\nDogs are omnivores, so have the ability to digest both meat and vegetables. Therefore they need a balanced diet of proteins, fats, fibre, minerals and vitamins. High-quality dog food is always better than a cheap, low-quality alternative."
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/dogdiet"
+                android:layout_width="112dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="640dp"
+                android:text="MORE INFO">
+
+            </Button>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="713dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="361dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:text="What human food is poisonous to dogs?"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="341dp"
+                android:layout_height="256dp"
+                android:layout_marginTop="30dp"
+                android:paddingStart="40dp"
+                android:paddingTop="90dp"
+                android:src="@drawable/dog4">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="338dp"
+                android:layout_height="317dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="310dp"
+                android:lineSpacingExtra="8px"
+                android:text="Although it is tempting to treat your dog to food from your plate, you should take some time to learn which common human food is toxic to dogs.
+
+\n\nSome common food to strictly avoid giving your dog:
+
+\n1. Nuts
+\n2. Onions
+\n3. Raisins
+\n4. Chocolate
+\n5. Leeks
+\n6. Garlic
+\n7. Leftover bones "
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+            </TextView>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>

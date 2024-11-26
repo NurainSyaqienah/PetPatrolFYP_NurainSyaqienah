@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F1F1"
+    tools:context=".SelangorActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="510dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/selangorclinic1"
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/kl1" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameselangorclinic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/selangorclinic1"
+                android:text="VPAC – Vets For Pets Animal Clinic Kuchai Lama"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/selangorclinic1rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameselangorclinic1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="220dp"
+                android:layout_toEndOf="@id/selangorclinic1"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.4/5 - Google Review (418 reviews)\n\nOperating Hours:\n10:00 am – 7:00 pm (Tuesday -Friday)\n10:00 am – 2:00 pm (Monday)\n10:00 am – 3:00 pm (Saturday &amp; Sunday)\nClosed on Sunday\n\nAddress: \nNo. 49, Jalan Kuchai Lama, Taman Lian Hoe, 58100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur\n\nPhone No:  \n017-983 5980 " />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="470dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/selangorclinic2"
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/kl2" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameselangorclinic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/selangorclinic2"
+                android:text="Yee Veterinary Clinic &amp; Surgery"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/selangorclinic2rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameselangorclinic2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/selangorclinic2"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.5/5 - Google Review (327 reviews)\n\nOperating Hours:
+\n9:30 am – 6:00 pm (Monday -Friday)
+\n9:30 am – 5:00 pm (Saturday)
+\n9:30 am – 1:00 pm (Sunday)
+
+
+\n\nAddress: \n42, Jalan SS 2/24, SS 2, 47300 Petaling Jaya, Selangor
+
+\n\nPhone No: \n03-7863 0530 " />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="490dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/selangorclinic3"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/kl3" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameselangorclinic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/selangorclinic3"
+                android:text="Serv-U Veterinary Clinic &amp; Surgery"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/selangorclinic3rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/selangorclinic3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/selangorclinic3"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.4/5 - Google Review (256 reviews)\n\nOperating Hours:
+\n10:00 am – 2:00 pm, 3:00 pm – 7:00 pm \n(Monday – Friday)
+\n10:00 am – 2:00 pm, 3:00 pm – 5:00 pm \n(Saturday &amp; Sunday)
+
+
+\n\nAddress: \n32, Jln Anggerik Vanilla BE 31/BE, Kota Kemuning, 40460 Shah Alam, Selangor
+
+\n\nPhone No: \n016-559 2332 " />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/selangorclinic4"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/kl4" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameselangorclinic4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/selangorclinic4"
+                android:text="Ohana Veterinary Clinic &amp; Surgery"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/selangorclinic4rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameselangorclinic4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/selangorclinic4"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.7/5 - Google Review (277 reviews)\n\nOperating Hours:
+\n10:00 am – 7:00 pm (Monday-Friday)
+\n10:00 am – 5:00 pm (Saturday &amp; Sunday)
+
+
+\n\nAddress: \nB-2-G Putra Walk, Jalan PP 25, 43300 Seri Kembangan, Selangor
+
+\n\nPhone No: \n016-522 5123 " />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/selangorclinic5"
+                android:layout_width="wrap_content"
+                android:layout_height="149dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/kl5" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameselangorclinic5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/selangorclinic5"
+                android:text="Sri Petaling Veterinary Clinic and Surgery"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/selangorclinic5rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameselangorclinic5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/selangorclinic5"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.6/5 - Google Review (213 reviews)\n\nOperating Hours: \n10:00 am – 6:00 pm (Monday-Sunday)
+
+
+\n\nAddress: \n123, Jalan Radin Bagus, Bandar Baru Sri Petaling, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
+
+\n\nPhone No: \n010-9392109" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/selangorclinic6"
+                android:layout_width="wrap_content"
+                android:layout_height="151dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/kl6" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameselangorclinic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/selangorclinic6"
+                android:text="Companion Animal Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/selangorclinic6rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameselangorclinic6"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/selangorclinic6"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.6/5 - Google Review (153 reviews)\n\nOperating Hours:
+\n10:00 am – 5:00 pm (Tuesday-Friday)
+\n10:00 am – 12:30 pm (Thursday)
+\nClosed on Sunday &amp; Monday
+
+
+\n\nAddress: \nJalan Klang Lama, 29, Jalan Hujan Rahmat 3, Taman Overseas Union, 58200 Kuala Lumpur
+\n\nPhone No: \n03-7783 4778" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/selangorclinic7"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/kl7" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameselangorclinic7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/selangorclinic7"
+                android:text="Living Hope Animal Clinic &amp; Surgery"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/selangorclinic7rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameselangorclinic7"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/selangorclinic7"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.8/5 - Google Review (180 reviews)\n\nOperating Hours:
+\n10:00 am – 6:00 pm (Tuesday-Saturday)
+\n10:00 am – 4:00 pm (Monday)
+\nClosed on Sunday
+
+
+\n\nAddress: \n30, Jalan 17/155c, Bukit Jalil, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
+
+\n\nPhone No: \n03-9547 6717" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/selangorclinic8"
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/kl8" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameselangorclinic8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/selangorclinic8"
+                android:text="Cyberlynx Animal Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/selangorclinic8rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameselangorclinic8"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/selangorclinic8"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.3/5 - Google Review (119 reviews)\n\nOperating Hours:
+\n1:00 pm – 8:00 pm (Tuesday – Friday)
+\n10:00 am – 5:30 pm (Saturday)
+\nClosed on Sunday &amp; Monday
+
+\n\nAddress: \nB-G-29, Block Bougainvillea, Damansara PJU 6A, 10 Boulevard, 47400 Petaling Jaya, Selangor
+
+\n\nPhone No: \n03-7732 4330 " />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/selangorclinic9"
+                android:layout_width="wrap_content"
+                android:layout_height="144dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/kl9" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameselangorclinic9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/selangorclinic9"
+                android:text="Damansara Heights Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/selangorclinic9rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/selangorclinic9"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/selangorclinic9"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.5/5 - Google Review (147 reviews)\n\nOperating Hours:
+\n9:00 am – 7:00 pm (Monday-Friday)
+\nClosed on Saturday &amp; Sunday
+
+\n\nAddress: \n79, Jalan Medan Setia 1, Bukit Damansara, 50490 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
+
+\n\nPhone No: \n03-2095 6877 " />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <!-- Text View to display Course Name -->
+            <ImageView
+                android:id="@+id/selangorclinic10"
+                android:layout_width="wrap_content"
+                android:layout_height="148dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/kl10" />
+
+            <TextView
+                android:id="@+id/nameselangorclinic10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/selangorclinic10"
+                android:text="Setapak Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/selangorclinic10rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameselangorclinic10"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/selangorclinic10"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.8/5 - Google Review (164 reviews)\n\nOperating Hours:
+\n10:00 am – 6:00 pm (Thursday-Sunday)
+\nClosed on Wednesday
+
+\n\nAddress: \nG-37, PV128, 128, Jalan Genting Kelang, Setapak, 53300 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
+
+ \n\nPhone No: \n03-4821 7607 " />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F1F1"
+    tools:context=".SabahActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/sabahclinic1"
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/sabah1" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namesabahclinic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/sabahclinic1"
+                android:text="Kinabalu Animal Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/sabahclinic1rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namesabahclinic1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/sabahclinic1"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.5/5 - Google Review (295 reviews)\n\nOperating Hours:\n10:00 am – 6:00 pm (Monday – Saturday)\nSunday (Closed)\n\nAddress: \nLot 6, Lorong Durian 3, Kian Yap Industrial Estate, Kolombong, Inanam, 88450 Kota Kinabalu, Sabah\n\nPhone No: \n088-385804" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/sabahclinic2"
+                android:layout_width="wrap_content"
+                android:layout_height="152dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/sabah2" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namesabahclinic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/sabahclinic2"
+                android:text="Sandakan Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/sabahclinic2rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namesabahclinic2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/sabahclinic2"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.4/5 - Google Review (158 reviews)\n\nOperating Hours:\n9:30 am – 4:00 pm (Monday – Saturday)\nSunday (Closed)\n\nAddress: \nLot 2A &amp; 2B, Taman Tai Fai Yin 4, Mile 8, Jalan Labuk, 90009 Sandakan, Sabah\n\nPhone No: \n089-660691" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/sabahclinic3"
+                android:layout_width="wrap_content"
+                android:layout_height="152dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/sabah3" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namesabahclinic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/sabahclinic3"
+                android:text="Century Animal (Tawau) Sdn. Bhd."
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/sabahclinic3rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sabahclinic3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/sabahclinic3"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.4/5 - Google Review (152 reviews)\n\nOperating Hours:\n8:30 am – 6:00 pm (Monday – Saturday)\n8:30 am – 3:00 pm (Sunday)\n\nAddress: Lot 10C TB 8274 Ground Floor Perdana Square Commercil, 91000 Tawau, Sabah\n\nPhone No: \n012-9181032"
+                android:textColor="@color/black" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/sabahclinic4"
+                android:layout_width="355dp"
+                android:layout_height="148dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/sabah4" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namesabahclinic4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/sabahclinic4"
+                android:text="Sunny Garden Veterinary Clinic "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/sabahclinic4rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namesabahclinic4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/sabahclinic4"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.5/5 - Google Review (134 reviews)\n\nOperating Hours:\n9:00 am – 4:00 pm (Monday – Saturday)\nSunday (Closed)\n\nAddress: \nGround Floor, Fu Yen, Jalan Tuaran Batu 1 1/2, Sunny Garden, 88300 Kota Kinabalu, Sabah\n\nPhone No: \n088-257275" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/sabahclinic5"
+                android:layout_width="wrap_content"
+                android:layout_height="151dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/sabah5" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namesabahclinic5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/sabahclinic5"
+                android:text="Purple Paws Veterinary Clinic "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/sabahclinic5rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namesabahclinic5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/sabahclinic5"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.4/5 - Google Review (96 reviews)\n\nOperating Hours: \n7:00 am – 4:00 pm (Monday – Saturday)\nSunday (Closed)\n\nAddress: \n1985, Lorong Emas, Taman Emas, 91000 Tawau, Sabah\n\nPhone No: \n019-8861820" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/sabahclinic6"
+                android:layout_width="wrap_content"
+                android:layout_height="151dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/sabah6" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namesabahclinic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/sabahclinic6"
+                android:text=" BDC Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/sabahclinic6rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namesabahclinic6"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/sabahclinic6"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.6/5 - Google Review (91 reviews)\n\nOperating Hours: \n9:30 am – 5:30 pm (Daily)\n\nAddress: \nNo. 2, Wei Hing Light Industrial Centre Jalan Kilang, Jalan Kolombong, Inanam, 88450 Kota Kinabalu, Sabah \n\nPhone No: \n012-4185100" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="540dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/sabahclinic7"
+                android:layout_width="wrap_content"
+                android:layout_height="186dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/sabah7" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namesabahclinic7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="210dp"
+                android:layout_toEndOf="@id/sabahclinic7"
+                android:text="Klinik Haiwan Kota Belud"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/sabahclinic7rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namesabahclinic7"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="240dp"
+                android:layout_toEndOf="@id/sabahclinic7"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.7/5 - Google Review (70 reviews)\n\nOperating Hours:\n8:30 am – 5:30 pm (Monday, Tuesday, Thursday, Friday, Saturday)\n8:30 am – 1:00 pm (Sunday)\nWednesday (Closed)\n\nAddress: \nWisma Tanjong, Kedai, No. 2, Jalan Ranau Bypass, Kg. Pirasan, 89150 Kota Belud, Sabah\n\nPhone No: \n014-2695255" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/sabahclinic8"
+                android:layout_width="wrap_content"
+                android:layout_height="154dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/sabah8" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namesabahclinic8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/sabahclinic8"
+                android:text="Jesselton Animal Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/sabahclinic8rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namesabahclinic8"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/sabahclinic8"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.2/5 - Google Review (36 reviews)\n\nOperating Hours:\n9:00 am – 5:00 pm (Tuesday- Saturday)\n10:00 am – 1:00 pm (Sunday)\nMonday (Closed)\n\nAddress: \nLot 19 Block B, Austin Business Park, 88300 Kota Kinabalu, Sabah\n\nPhone No: \n011-65080332" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/sabahclinic9"
+                android:layout_width="wrap_content"
+                android:layout_height="154dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/sabah9" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namesabahclinic9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/sabahclinic9"
+                android:text="Pawlala Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/sabahclinic9rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sabahclinic9"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/sabahclinic9"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.4/5 - Google Review (37 reviews)\n\nOperating Hours:\n8:30 am – 4:30 pm (Sunday – Friday)\nSaturday (Closed)\n\nAddress: \nLot 1, Blok 17, Mile 4, Jalan Labuk, Bandar Indah, 90000 Sandakan, Sabah\n\nPhone No: \n089-276755" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/sabahclinic10"
+                android:layout_width="356dp"
+                android:layout_height="151dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/sabah10" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namesabahclinic10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/sabahclinic10"
+                android:text="SAMC Animal Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/sabahclinic10rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namesabahclinic10"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_toEndOf="@id/sabahclinic10"
+                android:drawablePadding="2dp"
+                android:textColor="@color/black"
+                android:text="Rating: 4.0/5 - Google Review (615 reviews)\n\nOperating Hours:\n8:00 am – 10:00 pm (Monday – Friday)\n8:00 am – 9:00 pm (Saturday &amp; Sunday)\n\nAddress: \nLot 4, Lorong Angsa 1, Taman Fu Yen Phase 3, 88300 Kota Kinabalu, Sabah\n\nPhone No: \n088-253481"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

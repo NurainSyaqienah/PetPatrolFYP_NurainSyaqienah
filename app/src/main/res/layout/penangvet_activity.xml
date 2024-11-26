@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F1F1"
+    tools:context=".PenangActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/penangclinic1"
+                android:layout_width="wrap_content"
+                android:layout_height="144dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/penang1" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namepenangclinic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/penangclinic1"
+                android:text="Grace Veterinary Centre"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/penangclinic1rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namepenangclinic1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/penangclinic1"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.5/5 - Google Review (663 reviews)\n\nOperating Hours: \n9:00 am – 6:00 pm daily
+
+\n\nAddress: \n11 &amp; 12, Jalan Pantai Jerjak Taman Pantai Jerjak, Sungai Nibong, 11900, Penang
+
+\n\nPhone No: \n04-656 0113" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/penangclinic2"
+                android:layout_width="wrap_content"
+                android:layout_height="144dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/penang2" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namepenangclinic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/penangclinic2"
+                android:text="Neko Inu Veterinary Centre"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/penangclinic2rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namepenangclinic2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/penangclinic2"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.3/5 - Google Review (485 reviews)\n\nOperating Hours: \n9:00 am – 12:30 pm, 2:00 pm – 5:30 pm daily
+
+
+\n\nAddress: \n72-1-71 Arena Curve, Jalan Mahsuri, 11900 Bayan Baru, Pulau Pinang
+
+\n\nPhone No: \n04-611 9600" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/penangclinic3"
+                android:layout_width="wrap_content"
+                android:layout_height="138dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/penang3" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namepenangclinic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/penangclinic3"
+                android:text="Cuddles Veterinary Hospital"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/penangclinic3rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/penangclinic3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/penangclinic3"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.2/5 - Google Review (407 reviews)\n\nOperating Hours: \nAll-day
+
+\n\nAddress: \n5E, Jln Tanjong Tokong, Kampung Raya Baharu, 10470 Tanjung Tokong, Penang
+
+\n\nPhone No: \n04-890 0332" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/penangclinic4"
+                android:layout_width="wrap_content"
+                android:layout_height="143dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/penang4" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namepenangclinic4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/penangclinic4"
+                android:text="Venice Veterinary Clinic "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/penangclinic4rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namepenangclinic4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/penangclinic4"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.2/5 - Google Review (446 reviews)\n\nOperating Hours:
+\n10:00 am – 12:30 pm, 2:00 pm – 6:30 pm (Monday – Friday)
+\n10:00 am – 2:30 pm (Weekends)
+
+
+\n\nAddress: \n43, Jln Perniagaan Gemilang 1, Pusat Perniagaan Gemilang, 14000 Bukit Mertajam, Penang
+
+\n\nPhone No: \n010-391 2218" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/penangclinic5"
+                android:layout_width="wrap_content"
+                android:layout_height="139dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/penang5" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namepenangclinic5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/penangclinic5"
+                android:text="AcuVet Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/penangclinic5rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namepenangclinic5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/penangclinic5"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.4/5 - Google Review (276 reviews)\n\nOperating Hours:
+\n\n9:00 am – 1:00 pm, 2:00 pm – 6:00 pm (Monday – Saturday)
+\n\n9:00 am – 1:00 pm, 2:00 pm – 5:30 pm (Sunday)
+
+
+\n\nAddress: \n25E, Jalan Gottlieb, 10350 George Town, Pulau Pinang
+
+\n\nPhone No: \n04-226 4536"  />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/penangclinic6"
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/penang6" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namepenangclinic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/penangclinic6"
+                android:text="Windsor Animal Clinic Simpang Ampat"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/penangclinic6rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namepenangclinic6"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/penangclinic6"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.1/5 - Google Review (259 reviews)\n\nOperating Hours: \n9:00 am – 8:00 pm daily
+
+\n\nAddress: \nNo 1, Ground Floor, Taman Idaman, 14100 Simpang Ampat, Penang
+
+\n\nPhone No: \n04-506 0499" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/penangclinic7"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/penang7" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namepenangclinic7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/penangclinic7"
+                android:text="J Vet Animal Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/penangclinic7rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namepenangclinic7"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/penangclinic7"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.7/5 - Google Review (223 reviews)\n\nOperating Hours:
+\n11:00 am – 2:00 pm, 3:30 pm – 6:00 pm (Monday – Tuesday, Thursday – Friday)
+\n12:00 pm – 5:00 pm (Weekends)
+\nClosed on Wednesday
+
+
+\n\nAddress: \n29 Lorong Seri Impian 2 Taman Seri Impian, Kampung Alma, 14000 Bukit Mertajam, Pulau Pinang
+
+\n\nPhone No: \n017-551 8780" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/penangclinic8"
+                android:layout_width="wrap_content"
+                android:layout_height="151dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/penang8" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namepenangclinic8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/penangclinic8"
+                android:text="Ark Veterinary Centre"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/penangclinic8rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namepenangclinic8"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/penangclinic8"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.6/5 - Google Review (193 reviews)\n\nOperating Hours:
+\n9:30 am – 6:00 pm (Monday, Wednesday – Saturday)
+\n10:00 am – 3:00 pm (Sunday)
+\nClosed on Tuesday
+
+
+\n\nAddress: \n25, Lebuh Lembah Permai 1, 11200 Tanjung Bungah, Penang
+
+\n\nPhone No: \n04-899 2328" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/penangclinic9"
+                android:layout_width="wrap_content"
+                android:layout_height="144dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/penang9" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namepenangclinic9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/penangclinic9"
+                android:text="Island Veterinary Clinic and Surgery "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/penangclinic9rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/penangclinic9"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/penangclinic9"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.4/5 - Google Review (218 reviews)\n\nOperating Hours:
+\n10:00 am – 1:00 pm, 2:30 pm – 7:00 pm (Monday – Saturday)
+\n10:00 am – 1:00 pm, 2:00 pm – 5:30 pm (Sunday)
+
+
+\n\nAddress: \n381A-G-5, Jalan Perak Jelutong, 11600 George Town, Penang
+
+\n\nPhone No: \n04-280 4393" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/penangclinic10"
+                android:layout_width="wrap_content"
+                android:layout_height="145dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/penang10" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/namepenangclinic10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/penangclinic10"
+                android:text="Kitty Cat Care Enterprise"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/penangclinic10rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/namepenangclinic10"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/penangclinic10"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.5/5 - Google Review (190 reviews)\n\nOperating Hours: \n10:00 am – 4:00 pm (Thursday – Sunday) \n\nClosed on Monday – Wednesday
+
+
+\n\nAddress: \n22A Ground Floor, Bandar Sunway Tunas, Persiaran Mahsuri 1/2, Bayan Baru, 11900 Bayan Lepas, Penang
+
+\n\nPhone No: \n013-521 0522" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F1F1"
+    tools:context=".PerlisActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perlisclinic1"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perlis1" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperlisclinic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perlisclinic1"
+                android:text="Klinik Haiwan &amp; Surgeri Kangar"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perlisclinic1rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameperlisclinic1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perlisclinic1"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.3/5 - Google Review (254 reviews)\n\nOperating Hours:\n10:00 am - 6:30 pm (Monday - Saturday)\nClosed (Sunday)\n\nAddress:\nJalan Kangar - Alor Setar, 01000 Kangar, Perlis\n\nPhone No:\n04-9767175" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perlisclinic2"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perlis2" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperlisclinic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perlisclinic2"
+                android:text="SANCTUARY Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perlisclinic2rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameperlisclinic2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perlisclinic2"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.5/5 - Google Review (90 reviews)\n\nOperating Hours:\n10:00 am - 7:00 pm (Sunday - Thursday)\nClosed (Friday &amp; Saturday)\n\nAddress:\n10, Jalan Kangar Jaya 2, Kangar Jaya, 01000 Kangar, Perlis\n\nPhone No:\n010-2845236" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perlisclinic3"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perlis3" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperlisclinic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perlisclinic3"
+                android:text="Klinik Haiwan Calico"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perlisclinic3rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/perlisclinic3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perlisclinic3"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.9/5 - Google Review (78 reviews)\n\nOperating Hours:\n11:00 am - 6:30 pm (Friday - Wednesday)\nClosed (Thursday)\n\nAddress:\n11, Jalan Kemuning 2, Taman Pekan, 11, Jalan Syed Hussain, Arau, 02600 Arau, Perlis\n\nPhone No:\n011-11888574" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/perlisclinic4"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/perlis4" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nameperlisclinic4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/perlisclinic4"
+                android:text="Vetville Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/perlisclinic4rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameperlisclinic4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/perlisclinic4"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.7/5 - Google Review (18 reviews)\n\nOperating Hours:\n11:00 am - 8:00 pm (Wednesday - Sunday)\n11:00 am - 4:00 pm (Monday)\nClosed (Tuesday)\n\nAddress:\n11, BATU 7, Jalan Kaki Bukit, Taman Beseri Permai, 02400, Perlis\n\nPhone No:\n010-3134003" />
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

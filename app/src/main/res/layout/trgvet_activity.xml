@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F1F1"
+    tools:context=".TrgActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/trgclinic1"
+                android:layout_width="349dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/trg1" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nametrgclinic1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/trgclinic1"
+                android:text="Tawakkal Veterinary Gong Badak"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/trgclinic1rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nametrgclinic1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/trgclinic1"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.3/5 - Google Review (290 reviews)\n\nOperating Hours: \n9:00 am - 9:00 pm (Sunday - Thursday)\n9:00 am - 6:00 pm (Friday &amp; Saturday)\n\nAddress: \nLOT 16133/GR-A AND B, Jalan Gong Badak, TAMAN SRI GELANG, 21300 Kuala Terengganu, Terengganu\n\nPhone No:\n011-10524256" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/trgclinic2"
+                android:layout_width="354dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/trg2" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nametrgclinic2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/trgclinic2"
+                android:text="Klinik Haiwan KT-Kuala Terengganu"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/trgclinic2rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nametrgclinic2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/trgclinic2"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.8/5 - Google Review (148 reviews)\n\nOperating Hours: \n10:00 am - 6:00 pm (Sunday, Tuesday - Thursday)\n9:00 am - 5:00 pm (Friday &amp; Saturday)\nClosed (Monday)\n\nAddress:\nSatu Barisan dengan Pusat Dialisis Islah, PT 30862, Jalan Lapangan Terbang, TAMAN DESA YAYASAN, 21300 Kuala Terengganu, Terengganu\n\nPhone No:\n019-3219261"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/trgclinic3"
+                android:layout_width="355dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/trg3" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nametrgclinic3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/trgclinic3"
+                android:text="Klinik Haiwan Kemaman"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/trgclinic3rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/trgclinic3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/trgclinic3"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.2/5 - Google Review (155 reviews)\n\nOperating Hours: \n9:30 am - 6:00 pm (Sunday - Thursday)\n9:30 am - 3:00 pm (Saturday)\nClosed (Friday)\n\nAddress:\nK-538 TINGKAT BAWAH, Jalan Penghiburan, 24000 Chukai, Terengganu\n\nPhone No:\n09-8582046" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/trgclinic4"
+                android:layout_width="355dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/trg4" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nametrgclinic4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/trgclinic4"
+                android:text="Klinik Veterinar Haiwanku"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/trgclinic4rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nametrgclinic4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/trgclinic4"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.5/5 - Google Review (204 reviews)\n\nOperating Hours:\n1:30 pm - 6:30 pm (Monday - Saturday)\nClosed (Sunday)\n\nAddress:\n820K, Lorong Pandan, 20400 Kuala Terengganu, Terengganu\n\nPhone No:\n016-9869325" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/trgclinic5"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/trg5" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nametrgclinic5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/trgclinic5"
+                android:text="Klinik Veterinar Kuala Ibai"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/trgclinic5rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nametrgclinic5"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/trgclinic5"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.6/5 - Google Review (70 reviews)\n\nOperating Hours:\n10:30 am - 5:00 pm (Monday - Saturday)\nClosed (Sunday)\n\nAddress:\nTerengganu Equestrian Resort, Jalan Sultan Mahmud, 20400 Kuala Terengganu, Terengganu\n\nPhone No:\n018-2980377" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/trgclinic6"
+                android:layout_width="356dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/trg6" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nametrgclinic6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/trgclinic6"
+                android:text="DrNor Veterinary Clinic"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/trgclinic6rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nametrgclinic6"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/trgclinic6"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.3/5 - Google Review (240 reviews)\n\nOperating Hours:\n9:00 am - 2:30 pm (Saturday - Thursday)\n8:30 am - 11:30 am (Friday)\n\nAddress:\n239, Lorong Pasar, Kampung Gong Kapas, 21100 Kuala Terengganu, Terengganu\n\nPhone No:\n019-9344569" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/trgclinic7"
+                android:layout_width="355dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/trg7" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nametrgclinic7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/trgclinic7"
+                android:text="Klinik Haiwan dan Surgeri MHI ( Besut )"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/trgclinic7rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nametrgclinic7"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/trgclinic7"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.8/5 - Google Review (290 reviews)\n\nOperating Hours:\n10:00 am - 6:00 pm (Wednesday - Monday)\nClosed (Tuesday)\n\nAddress: \nLot 4824, Tingkat Bawah (B Taman D’Najjah, Alor Lintang Kampung Raja, 22200 Besut, Terengganu\n\nPhone No:\n011-54074778"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/trgclinic8"
+                android:layout_width="352dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/trg8" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nametrgclinic8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/trgclinic8"
+                android:text="Pejabat Perkhidmatan Veterinar Daerah Kemaman"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/trgclinic8rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nametrgclinic8"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/trgclinic8"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.1/5 - Google Review (150 reviews)\n\nOperating Hours:\n8:30 am - 4:30 pm (Sunday - Thursday)\nClosed (Friday &amp; Saturday)\n\nAddress:\nPejabat Perkhidmatan Veterinar Daerah Kemaman, 24000 Chukai, Terengganu\n\nPhone No:\n09-8591325" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/trgclinic9"
+                android:layout_width="wrap_content"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/trg9" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nametrgclinic9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/trgclinic9"
+                android:text="Pejabat Perkhidmatan Veterinar Daerah Marang"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/trgclinic9rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/trgclinic9"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/trgclinic9"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.0/5 - Google Review (36 reviews)\n\nOperating Hours:\n8:00 am - 5:00 pm (Sunday - Wednesday)\n8:00 am - 3:30 pm (Thursday)\nClosed (Friday &amp; Saturday)\n\nAddress:\nKampung Ru Rendang, 21600 Marang, Terengganu\n\nPhone No:\n09-6187702" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <ImageView
+                android:id="@+id/trgclinic10"
+                android:layout_width="355dp"
+                android:layout_height="147dp"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/trg10" />
+
+            <!-- Text View to display Course Name -->
+            <TextView
+                android:id="@+id/nametrgclinic10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="170dp"
+                android:layout_toEndOf="@id/trgclinic10"
+                android:text="Klinik Haiwan Medina Dungun"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/trgclinic10rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nametrgclinic10"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:textColor="@color/black"
+                android:layout_toEndOf="@id/trgclinic10"
+                android:drawablePadding="2dp"
+                android:text="Rating: 4.8/5 - Google Review (42 reviews)\n\nOperating Hours:\n10:30 am 7:00 pm (Sunday - Thursday)\n10:30 am - 3:00 pm (Saturday)\nClosed (Friday)\n\nAddress:\nJalan Baru Pak Sabah, 23000 Kuala Dungun, Terengganu\n\nPhone No:\n017-3008051" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

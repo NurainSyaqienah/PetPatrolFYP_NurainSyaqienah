@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:text="WHICH STATE ARE YOU IN?"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+     <GridLayout
+         android:layout_width="match_parent"
+         android:layout_height="1400dp"
+         android:layout_centerHorizontal="true"
+         android:layout_margin="30dp"
+         android:columnCount="2"
+         android:rowCount="7"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         tools:ignore="MissingConstraints">
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivJohor"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/johorflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_johor"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="JOHOR">
+
+             </Button>
+
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivKedah"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/kedahflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_kedah"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="KEDAH">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivKelantan"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/kelantanflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_kelantan"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="KELANTAN">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivMelaka"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/melakaflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_melaka"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="MELAKA">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivNegsem"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/negsemflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_negsem"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="NEGERI SEMBILAN">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivPahang"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/pahangflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_pahang"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="PAHANG">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivPenang"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/penangflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_penang"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="PENANG">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivPerak"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/perakflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_perak"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="PERAK">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivPerlis"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/perlisflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_perlis"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="PERLIS">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivSelangor"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/selangorflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_selangor"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="SELANGOR">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivTrg"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/trgflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_trg"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="TERENGGANU">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivSabah"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/sabahflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_sabah"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="SABAH">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+         <androidx.cardview.widget.CardView
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_rowWeight="1"
+             android:layout_columnWeight="1"
+             android:layout_margin="5dp"
+             app:cardCornerRadius="15dp"
+             app:cardElevation="0dp">
+
+             <ImageView
+                 android:id="@+id/ivSrwk"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:paddingStart="40dp"
+                 android:paddingEnd="40dp"
+                 android:paddingBottom="50dp"
+                 android:src="@drawable/srwkflag">
+
+             </ImageView>
+
+             <Button
+                 android:id="@+id/btn_srwk"
+                 android:layout_width="120dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="100dp"
+                 android:layout_marginStart="23dp"
+                 android:text="SARAWAK">
+
+             </Button>
+
+         </androidx.cardview.widget.CardView>
+
+     </GridLayout>
+
+ </LinearLayout>
+
+</ScrollView>

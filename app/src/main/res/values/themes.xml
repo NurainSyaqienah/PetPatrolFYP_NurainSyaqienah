@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PetPatrolFYP" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PetPatrolFYP" parent="Base.Theme.PetPatrolFYP" />
+
+    <style name="Theme.PetPatrolFYP.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PetPatrolFYP.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="Theme.PetPatrolFYP.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

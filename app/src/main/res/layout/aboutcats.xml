@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3D9F4"
+    tools:context=".JohorActivityVet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="20dp"
+            app:cardElevation="8dp"
+            android:paddingBottom="200dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="30dp"
+                android:text="ABOUT CATS"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="606dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <!-- Text View to display Course Name -->
+
+            <ImageView
+                android:id="@+id/johorclinic1"
+                android:layout_width="340dp"
+                android:layout_height="160dp"
+                android:layout_margin="20dp"
+                android:contentDescription="@string/app_name"
+                android:padding="5dp"
+                android:src="@drawable/cat1" />
+
+            <!-- Text VIew to display Course Rating -->
+            <!-- Image used in present in drawable folder -->
+            <TextView
+                android:id="@+id/johorclinic1rating"
+                android:layout_width="342dp"
+                android:layout_height="333dp"
+                android:layout_below="@id/namejohorclinic1"
+                android:layout_gravity="clip_vertical|fill_horizontal"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="200dp"
+                android:drawablePadding="2dp"
+                android:lineSpacingExtra="8px"
+                android:text="Cat, (Felis catus), domesticated member (felid) of the family Felidae. The family is generally divided between cats from the subfamily Pantherinae, which roar (including lions, tigers, and leopards), and cats from the subfamily Felinae, which purr instead (including cougars, bobcats, and domestic cats). According to the latest research, purring likely stems from a special pad within the folds of a cat’s vocal cords, which adds an additional layer of fatty tissue that enables the folds to vibrate (purr) at low frequencies. Domestic cats are characterized by retractable claws, powerful bodies, acute senses, long tails, and specialized teeth adapted for hunting prey."
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="827dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="30dp"
+                android:text="cat breeds"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="256dp"
+                android:paddingStart="50dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/cat2">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="338dp"
+                android:layout_height="377dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="290dp"
+                android:lineSpacingExtra="8px"
+                android:text="A cat breed is a group of related felines that share a conformation, meaning a similar physical appearance, or a common geographic region of origin. As cats spread around the world, pockets of cats adjusted to their unique environments and passed on their adaptations to their offspring. For example, such breeds as the Siberian and Norwegian Forest Cat developed long dense coats to protect themselves from the harsh winters in Russia and Norway. Recent genetic studies have helped determine the origins of some of the oldest recognized breeds. In general, the world’s domestic cats (pedigreed and random-bred) come from four areas: Asia, western Europe, East Africa, and the Mediterranean basin."
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/catbreed"
+                android:layout_width="112dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="690dp"
+                android:text="MORE INFO">
+
+            </Button>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="697dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:layout_marginTop="30dp"
+                android:text="cats DIET"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="341dp"
+                android:layout_height="256dp"
+                android:paddingStart="40dp"
+                android:paddingTop="80dp"
+                android:src="@drawable/cat3">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="338dp"
+                android:layout_height="223dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="290dp"
+                android:lineSpacingExtra="8px"
+                android:text="Cats are obligate carnivores, which means that they rely on nutrients found only in animal products. Cats evolved as hunters that consume prey that contains high amounts of protein, moderate amounts of fat, and a minimal amount of carbohydrates, and their diet still requires these general proportions today. Cats also require more than a dozen other nutrients, including vitamins, minerals, fatty acids, and amino acids."
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/catdiet"
+                android:layout_width="112dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="540dp"
+                android:text="MORE INFO">
+
+            </Button>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="690dp"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="361dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:text="List of Human Foods Cats Can And Can't Eat"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="341dp"
+                android:layout_height="256dp"
+                android:layout_marginTop="30dp"
+                android:paddingStart="40dp"
+                android:paddingTop="90dp"
+                android:src="@drawable/cat4">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="338dp"
+                android:layout_height="196dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="310dp"
+                android:lineSpacingExtra="8px"
+                android:text="If you want to share some of your favorite foods with your feline companion, you’re probably wondering what cats can eat and if they can eat human foods. The answer to this question is: it depends on the food. While some foods are safe for feline consumption, others can cause serious health issues or even poisoning."
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/catfood"
+                android:layout_width="112dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="540dp"
+                android:text="MORE INFO">
+
+            </Button>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+</ScrollView>
